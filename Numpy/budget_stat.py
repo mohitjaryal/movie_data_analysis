@@ -10,12 +10,12 @@ df = pd.read_csv('data/tmdb_5000_movies.csv')
 df['budget'] = pd.to_numeric(df['budget'], errors='coerce').fillna(df['budget'].mean())
 
 # converting to numpy array
-revenue = ['budget'].to_numpy()
+budget = ['budget'].to_numpy()
 
 # Statistics
 print("Budget Statistics:")
-print("Mean:", np.mean(revenue))
-print("Median:", np.median(revenue))
-print("Standard Deviation:", np.std(revenue))
-print("Min:", np.min(revenue))
-print("Max:", np.max(revenue))
+print("Mean:", np.mean(budget))
+print("Median:", np.median(budget))
+print("Standard Deviation:", np.std(budget))
+print("Min:", np.min(budget))
+print("Max:", np.max(budget))
