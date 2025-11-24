@@ -10,7 +10,7 @@ df['release_date'] = pd.to_datetime(df['release_date'], errors='coerce')
 # Extract release year
 df['release_year'] = df['release_date'].dt.year
 
-# Drop missing years (just in case)
+# Dropping missing years 
 df = df.dropna(subset=['release_year', 'vote_average'])
 
 # Group by release_year and calculate average rating
