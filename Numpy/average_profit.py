@@ -16,4 +16,4 @@ profit = df['revenue'].to_numpy() - df['budget'].to_numpy()
 # Average profit of only profitable movies
 avg_profit = np.mean(profit[profit > 0])
 
-print("💵 Average profit among profitable movies:", avg_profit)
+print("Average profit among profitable movies:", avg_profit)
