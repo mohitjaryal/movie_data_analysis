@@ -11,6 +11,3 @@ movies_after_2010 = df[df['release_date'].dt.year > 2010]
 
 # displaying results
 print('Movies released after 2010 : \n',movies_after_2010[['title','release_date']])
-
-# total no. of movies released after 2010
-print('Movies released after 2010 : \n',len(movies_after_2010))
