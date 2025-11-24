@@ -13,3 +13,7 @@ df['vote_count'] = df['vote_count'].fillna(df['vote_count'].mean())
 
 # verfiying cleaned values
 print(df[['budget', 'revenue', 'vote_average', 'vote_count']].isnull().sum())
+
+# converting numeric columns into correct types
+df['budget'] = pd.to_numeric(df['budget'],errors='coerce')
+df['release_date'] = pd.to_numeric(df['release_date'],errors='coerce')
