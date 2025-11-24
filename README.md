@@ -89,3 +89,9 @@ pip install pandas numpy matplotlib seaborn
 
 # 4. Run the script
 python3 scripts/main.py
+```
+
+#🧑‍💻 Author
+
+## Mohit Jaryal
+🌐 Learn more and contact me : [mohitjaryal.online](https://mohitjaryal.online)
