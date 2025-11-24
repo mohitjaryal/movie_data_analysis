@@ -12,3 +12,6 @@ df['revenue'] = pd.to_numeric(df['revenue'], errors='coerce').fillna(df['revenue
 profit = df['revenue'].to_numpy() - df['budget'].to_numpy()
 
 print('Profit :\n',profit)
+
+# few examples
+print("Example of profit calculation:\n", df[['title', 'budget', 'revenue']].head())
