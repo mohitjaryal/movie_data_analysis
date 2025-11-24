@@ -10,7 +10,7 @@ df = pd.read_csv('data/tmdb_5000_movies.csv')
 df['budget'] = pd.to_numeric(df['budget'], errors='coerce').fillna(df['budget'].mean())
 
 # converting to numpy array
-budget = ['budget'].to_numpy()
+budget = df['budget'].to_numpy()
 
 # Statistics
 print("Budget Statistics:")
