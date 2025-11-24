@@ -17,3 +17,6 @@ print('Info :\n',df.info())
 
 # checking missing values - also total missing values
 print('Missing values :\n',df.isnull().sum())
+
+# basic statistics for numeric columns
+print('Statistics for numeric columns :\,',df.describe())
