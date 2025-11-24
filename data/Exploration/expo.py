@@ -13,7 +13,7 @@ print('First 10 rows :\n',df.head(10))
 print('Column names :\n',df.columns)
 
 # checking data types
-print('Info :',df.info())
+print('Info :\n',df.info())
 
 # checking missing values - also total missing values
 print('Missing values :\n',df.isnull().sum())
