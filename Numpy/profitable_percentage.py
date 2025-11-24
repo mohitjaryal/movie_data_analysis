@@ -9,7 +9,7 @@ df['budget'] = pd.to_numeric(df['budget'], errors='coerce').fillna(df['budget'].
 df['revenue'] = pd.to_numeric(df['revenue'], errors='coerce').fillna(df['revenue'].mean())
 
 # calculating profit
-profit = df['revenue'].to_numpy - df['budget'].to_numpy() 
+profit = df['revenue'].to_numpy() - df['budget'].to_numpy() 
 
 # profitable movies
 profitable_movies = np.sum(profit > 0)
