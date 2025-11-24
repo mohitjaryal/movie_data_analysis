@@ -17,4 +17,5 @@ df['revenue'] = pd.to_numeric(df['revenue'], errors='coerce')
 # Filtering movies with budget > 100 million and revenue > 200 million
 movies = df[(df['budget'] > 100000000) & (df['revenue'] > 200000000)]
 
-# d
+# displaying 
+print('Movies with budget > 100 million and revenue > 200 million :\n',movies[['title','budget','revenue']])
