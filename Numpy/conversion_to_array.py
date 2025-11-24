@@ -9,3 +9,11 @@ df['revenue'] = pd.to_numeric(df['revenue'], errors='coerce').fillna(df['revenue
 
 # converting to numpy array
 revenue = df['revenue'].to_numpy()
+
+# Statistics
+print("📊 Revenue Statistics:")
+print("Mean:", np.mean(revenue))
+print("Median:", np.median(revenue))
+print("Standard Deviation:", np.std(revenue))
+print("Min:", np.min(revenue))
+print("Max:", np.max(revenue))
