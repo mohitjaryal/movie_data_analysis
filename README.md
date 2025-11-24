@@ -55,7 +55,6 @@ The dataset contains metadata for over 5,000 movies, including:
 - 🐍 Python 3  
 - 🧩 Pandas  
 - 🔢 NumPy  
-- 📈 Matplotlib / Seaborn (optional)
 
 ---
 
