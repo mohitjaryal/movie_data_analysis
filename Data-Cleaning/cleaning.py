@@ -10,3 +10,6 @@ print('Data after converting to datetime :\n',df)
 # filling important values
 df['vote_average'] = df['vote_average'].fillna(df['vote_average'].mean())
 df['vote_count'] = df['vote_count'].fillna(df['vote_count'].mean())
+
+# verfiying cleaned values
+print(df[['budget', 'revenue', 'vote_average', 'vote_count']].isnull().sum())
