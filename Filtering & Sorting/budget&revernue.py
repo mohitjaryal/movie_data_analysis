@@ -19,3 +19,6 @@ movies = df[(df['budget'] > 100000000) & (df['revenue'] > 200000000)]
 
 # displaying 
 print('Movies with budget > 100 million and revenue > 200 million :\n',movies[['title','budget','revenue']])
+
+# total count
+print("\nTotal movies meeting the criteria:", len(movies))
