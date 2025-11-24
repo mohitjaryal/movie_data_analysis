@@ -15,4 +15,5 @@ print('Column names :\n',df.columns)
 # checking data types
 print('Info :',df.info())
 
-# checking missing values 
+# checking missing values - also total missing values
+print('Missing values :\n',df.isnull().sum())
