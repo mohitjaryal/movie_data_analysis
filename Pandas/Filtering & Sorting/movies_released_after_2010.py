@@ -1,4 +1,4 @@
-# Find the movies released 
+# Find the movies released after 2010
 import pandas as pd
 
 # Load CSV
