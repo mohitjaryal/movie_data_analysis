@@ -1,4 +1,4 @@
-# Find Percentage of profitable movies
+# Find percentage of profitable movies
 
 import pandas as pd
 import numpy as np
