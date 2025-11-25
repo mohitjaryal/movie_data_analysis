@@ -1,4 +1,4 @@
-# clean the Data
+# Clean the Data
 import pandas as pd
 
 # Load CSV
