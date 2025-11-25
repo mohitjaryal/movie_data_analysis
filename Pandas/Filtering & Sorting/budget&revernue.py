@@ -1,4 +1,4 @@
-# Filter movies with budget > 100 million and revenue > 200 million.
+
 
 import pandas as pd
 
