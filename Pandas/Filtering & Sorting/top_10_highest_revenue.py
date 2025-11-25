@@ -1,4 +1,5 @@
-# Find top 10 highest 
+# Find top 10 highest revenue movies
+
 import pandas as pd
 
 # Load CSV
