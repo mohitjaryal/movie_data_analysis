@@ -1,3 +1,4 @@
+# Exploring the data
 import pandas as pd
 
 # Load CSV
