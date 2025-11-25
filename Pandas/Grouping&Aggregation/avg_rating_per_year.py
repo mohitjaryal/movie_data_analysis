@@ -1,4 +1,5 @@
 # Calculate average rating per year 
+
 import pandas as pd
 
 # Load CSV
