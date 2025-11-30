@@ -43,6 +43,13 @@ The dataset contains metadata for over 5,000 movies, including:
 - Found **Top 10 Highest-Rated Movies** (with a minimum vote count filter)  
 - Filtered **Movies Released After 2010**
 
+### **4️⃣ Data Visulization**
+- Added visualizations using Matplotlib and Seaborn
+- Performed genre-wise analysis of revenue and ratings
+- Explored correlations between budget, revenue, and ratings
+- Built simple machine learning models to predict movie success
+
+
 ### **4️⃣ NumPy Practice**
 - Converted numeric columns (`revenue`, `budget`, etc.) to NumPy arrays  
 - Calculated mean, median, standard deviation, min, and max values  
@@ -62,14 +69,6 @@ The dataset contains metadata for over 5,000 movies, including:
 - Highest-grossing movies are large franchise blockbusters (e.g., Avatar, Jurassic World).  
 - Average movie rating lies between **6 and 7** for most movies.  
 - The number of movies released increased significantly after 2000.  
-
----
-
-## 🧩 Future Improvements
-- Add **visualizations** using Matplotlib and Seaborn  
-- Perform **genre-wise revenue and rating analysis**  
-- Explore **correlations** between budget, revenue, and ratings  
-- Build simple **machine learning models** to predict movie success  
 
 ---
 
