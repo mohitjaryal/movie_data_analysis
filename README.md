@@ -50,7 +50,7 @@ The dataset contains metadata for over 5,000 movies, including:
 - Built simple machine learning models to predict movie success
 
 
-### **4️⃣ NumPy Practice**
+### **5️⃣ NumPy Practice**
 - Converted numeric columns (`revenue`, `budget`, etc.) to NumPy arrays  
 - Calculated mean, median, standard deviation, min, and max values  
 - Computed `profit = revenue - budget`  
